@@ -22,7 +22,7 @@ import cats.syntax.semigroup._
 val stringResult = "Hi " |+| "there" |+| Monoid[String].empty
 val intResult = 1 |+| 2 |+| 3 |+| Monoid[Int].empty
 
-import cws.ch2.SuperAdder._
+import swc.ch2.SuperAdder._
 add(List(1, 2, 3))
 add(List(Option(1), Option(2), None, Some(3)))
 

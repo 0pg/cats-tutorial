@@ -1,4 +1,4 @@
-package cws.ch2
+package swc.ch2
 
 trait SuperAdder[A] {
   def add(items: List[A]): A

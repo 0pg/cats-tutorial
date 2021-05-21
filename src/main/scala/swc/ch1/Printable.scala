@@ -1,4 +1,4 @@
-package cws.ch1
+package swc.ch1
 
 object Printable {
 

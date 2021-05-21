@@ -1,5 +1,5 @@
-import cws.ch1.Printable._
-import cws.ch1.PrintableInstances._
+import swc.ch1.Printable._
+import swc.ch1.PrintableInstances._
 
 println(format(100))
 println(format("String100"))

@@ -1,5 +1,5 @@
-import cws.ch2.{Monoid, Semigroup}
-import cws.ch2.Monoid._
+import swc.ch2.{Monoid, Semigroup}
+import swc.ch2.Monoid._
 
 val booleanMonoid = Monoid[Boolean]
 booleanMonoid.combine(true, booleanMonoid.combine(true, false)) ==

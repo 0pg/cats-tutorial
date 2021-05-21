@@ -1,7 +1,7 @@
 import cats.Show
 import cats._
 import cats.implicits._
-import cws.ch1.Cat
+import swc.ch1.Cat
 
 import java.util.Date
 

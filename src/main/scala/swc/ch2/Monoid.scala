@@ -1,4 +1,4 @@
-package cws.ch2
+package swc.ch2
 
 trait Monoid[A] extends Semigroup[A] {
   def empty: A
